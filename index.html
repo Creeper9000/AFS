@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/Project.css">
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </head>
+  
+  <body data-spy="scroll" data-target="#website-navbar" data-offset="100">
+    <nav id="website-navbar" class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand">
+        <div class="Title" id="AFS-title">
+          <b>Anime Fighting Simulator</b> 
+        </div>
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-target"><span class="navbar-toggler-icon"></span></button>
+
+      <div id="navbar-target" class="navbar-content collapse navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#Welcome">Top of Page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#main-picture">Pictures</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#htp">How To Play?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Bosses</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="#kurama">Nine Tailed Fox</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#broly">Broly</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#beast-king">Beast King</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#AFO">Masked Villain</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#beast-monke">Beast Monke</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#boss-drop">Boss Drops</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <br>
+      <!--Jumbotron     Text in Jumbotron"Welcome to Anime Fighting Simulator" -->
+
+      <div class="jumbotron" id="Welcome">
+          <h3>Welcome To <div class="badge badge-pill badge-warning">Anime Fighting Simulator</div></h3>
+      </div>
+
+      <!--Carousel      3 pictures-->
+      <div class="row" id="main-picture">
+        <div class="col-md">
+          <div id="landmarks-carousel" class="carousel slide" data-ride="carousel">
+            <!--Carousel Items(Pictures)-->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="Project_img/anime-fighting-simulator-codes-2.jpg" class="img-fluid">
+              </div>
+              <div class="carousel-item">
+                <img src="Project_img/cf28a690be274d5a9726ec33f6fb0d01.png" class="img-fluid" style="width: 1500px;;">
+              </div>
+              <div class="carousel-item">
+                <img src="Project_img/Roblox_AnimeFightingSim-Lightning.jpg" class="img-fluid">
+              </div>
+            </div>
+            <!--Carousel Controls-->
+            <a class="carousel-control-prev" href=#landmarks-carousel data-slide="prev">
+                <span class="fa fa-chevron-left"></span>
+            </a>
+            <a class="carousel-control-next" href=#landmarks-carousel data-slide="next">
+              <span class="fa fa-chevron-right"></span>
+            </a>
+
+            <!--Carousel Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#landmarks-carousel"data-slide-to="0" class="active"></li>
+              <li data-target="#landmarks-carousel"data-slide-to="1"></li>
+              <li data-target="#landmarks-carousel"data-slide-to="2"></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="alert-stuff">
+        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+          <h3 class="display-7">Ratings rated by cfcreeper9000</h3>
+          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+      <div id="htp">
+      <hr class="lead">
+      <h4>How To Play?</h4>
+        <p>
+          When you first start the game, you will find yourself in a "spawn" building.
+          In the building, there is a map detailing the locations of the training areas, 
+          which advance your training power and speed significantly. 
+          You will also see 2 NPCs: one named Boom (who is one of the quest NPCs), and another named Wukong. 
+          Lastly, you will see 4 icons at the bottom of the screen. 
+          The icon for Physical Strength is a  fist, Durability is a armour, chakara is a blue fire and sword skill is a sword.
+        </p>
+        <br>
+        <p>
+          If you press the corresponding number and left-click (with the exclusion of chakra, where you do NOT have to left click), this is your "basic" training without the use of "training spots". 
+          Training Spots are certain places that you can train in that have a certain "multiplier" that will stack with your own multiplier. 
+          In order to gain the effect of training spots, you must use its basic training action in it, with the exception of durability, which only requires you to stay in the spot. 
+          Please note that the sword does NOT have any training areas since the swords already have multipliers.
+        </p>
+      </div>
+      <br>
+      <hr>
+      <!--Card Bosses with progress bars-->
+      <div class="Boss-title">
+      <h1><div class="badge badge-secondary">Bosses</div></h1>
+      </div>
+
+      <div class="card-deck">
+        <div id="kurama">
+          <div class="card bg-danger">
+            <img class="card-img-top" src="Project_img/Kurama.png">
+            <div class="card-body">
+              <h4 class="card-title">Nine Tailed Fox</h4>
+              <div class="card-caption">
+                  <h5>Difficulty:</h5>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 20%"></div>
+                </div>
+                <p><b>Quite Easy</b></p>
+                <p><b>Boss Drops:</b></p>
+                <ul>
+                  <li>Tailed Mode</li>
+                  <li>Spiral Shuriken</li>
+                  <li>Multiple Bomb Spiral Shuriken</li>
+                  <li>Tailed Monster Bomb</li>
+                </ul>
+                <p><b>Boss Attacks</b></p>
+                <ul>
+                  <li>
+                    Swipe: Nine Tailed Fox swipes it's arm, dealing damage to whoever hit.
+                  </li>
+                  
+                  <li>
+                    Slam: Nine Tailed Fox slams the ground, creating a translucent yellow shockwave.
+                    It knocks the player back while dealing damage.
+                  </li>
+
+                  <li>
+                    Tailed Monster Bomb: Nine Tailed Fox will charge up a ball of energy at it's mouth, launching it towards the player.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="broly">
+          <div class="card bg-success">
+            <img class="card-img-top" src="Project_img/BROLY.png">
+            <div class="card-body">
+              <h4 class="card-title">Broly</h4>
+              <div class="card-caption">
+                <h5>Difficulty:</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+              </div>
+              <p><b>Hard</b></p>
+              <p><b>Boss Drops:</b></p>
+                <ul>
+                  <li>Legendary Super Human</li>
+                  <li>Meteor Shower</li>
+                  <li>Energy Barrage</li>
+                  <li>Energy Burst</li>
+                </ul>
+                <p><b>Boss Attacks</b></p>
+                <ul>
+                  <li>
+                    Punch: Broly punches the player, knoking them back and damaging them.
+                  </li>
+                  
+                  <li>
+                    Energy Burst: Broly rises into the air. Absorbing green coloured energy before expelling it. The attack knocks players back and damages them over a large area.
+                  </li>
+
+                  <li>
+                    Eraser Cannon: Broly will do a brief pose before launching a green beam instantly at a player.
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div id="beast-king">
+          <div class="card bg-primary">
+            <img class="card-img-top" src="Project_img/Beastking.png">
+            <div class="card-body">
+              <h4 class="card-title">Beast King</h4>
+              <div class="card-caption">
+                <h5>Difficulty:</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%"></div>
+              </div>
+              <p><b>Average</b></p>
+              <p><b>Boss Drops:</b></p>
+                <ul>
+                  <li>Barrier</li>
+                  <li>Kings Outburst</li>
+                  <li>Blade Whirlwind</li>
+                </ul>
+                <p><b>Boss Attacks</b></p>
+                <ul>
+                  <li>
+                    Bite: Beast King bites infront of himself near ground level, doing damage to players hit.
+                  </li>
+                  
+                  <li>
+                    Lightning: Beast King summons lighting bolts that surround him. If touched, players will be damaged.
+                  </li>
+
+                  <li>
+                    Fire Beam: Beast King shakes it's head before launching a beam of fire at a player, damaging and knocking them back.
+                  </li>
+                </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div id="AFO">
+          <div class="card bg-secondary">
+            <img class="card-img-top" src="Project_img/AFO.jpg">
+            <div class="card-body">
+              <h4 class="card-title">Masked Villain</h4>
+              <div class="card-caption">
+                <h5>Difficulty:</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+              </div>
+              <p><b>Hard</b></p>
+              <p><b>Boss Drops:</b></p>
+                <ul>
+                  <li>Air Cannon</li>
+                  <li>Ultimate Power Combination</li>
+                  <li>Springy Limbs</li>
+                  <li>Impact Recoil</li>
+                </ul>
+                <p><b>Boss Attacks</b></p>
+                <ul>
+                  <li>
+                    Punch: Masked Villain punches the player, knocking them back and damaging them.
+                  </li>
+                  
+                  <li>
+                    Air Cannon: Masked Villain does a brief pose before launching a beam of air at a player, damaging them.
+                  </li>
+
+                  <li>
+                    Ultimate Power Combination: Masked Villain does a brief pose before punching the ground creating a shockwave lasting for a while, knocking back and damaging player.
+                  </li>
+                </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div id="beast-monke">
+          <div class="card bg-danger">
+            <img class="card-img-top" src="Project_img/Beastmonkey.png">
+            <div class="card-body">
+              <h4 class="card-title">Beast Monke</h4>
+              <div class="card-caption">
+                <h5>Difficulty:</h5>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary"  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 40%"></div>
+              </div>
+              <p><b>Average</b></p>
+              <p><b>Boss Drops:</b></p>
+              <ul>
+                <li>Beast Titan Transformation</li>
+                <li>[Beast Titan]: Ground Smash</li>
+                <li>[Beast Titan]: Rock Throw</li>
+              </ul>
+              <p><b>Boss Attacks</b></p>
+              <ul>
+                <li>
+                  Slap: Beast Monke slaps infront of him, dealing damage.
+                </li>
+                
+                <li>
+                  Ground Smash: Beast Monke smashes the ground, creating a circle of debris. Whoever goes near or is in the circle will be damaged and knocked away.
+                </li>
+
+                <li>
+                  Rock Throw: Beast Monke throws rock infront of him, dealing damage to people standing within the range of the rocks.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <br>
+      <div id="boss-drop">
+        <h3>Boss Drops</h3>
+        <div class="table-responsive-md">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>Bosses</th>
+                <th>Nine Tailed Fox</th>
+                <th>Broly</th>
+                <th>Beast King</th>
+                <th>Masked Villain</th>
+                <th>Beast Monke</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <td><button type="button" class="btn btn-warning" data-toggle="modal" data-target="#tm">Tailed Mode</button></th>
+                <td><button type="button" class="btn btn-success" data-toggle="modal" data-target="#lsh">Super Human</button></td>
+                <td><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#barri">Barrier</button></td>
+                <td><button type="button" class="btn btn-dark" data-toggle="modal" data-target="#sl">Springy Limb</button></td>
+                <td><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#transform">Transformation</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="modal fade" id="tm" tabindex="-1" aria-labelledby="tmLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Tailed Mode</h5>
+              </div>  
+              <div class="modal-body">
+                <img src="project_img/BijuuMode.gif">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="lsh" tabindex="-1" aria-labelledby="lshLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Legendary Super Human</h5>
+              </div>  
+              <div class="modal-body">
+                <img src="project_img/LSSJ.gif">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="barri" tabindex="-1" aria-labelledby="barriLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Barrier</h5>
+              </div>  
+              <div class="modal-body">
+                <img src="project_img/Barrier.gif">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="sl" tabindex="-1" aria-labelledby="slLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Springy Limbs</h5>
+              </div>  
+              <div class="modal-body">
+                <img src="project_img/SpringlikeLimbs.gif">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="transform" tabindex="-1" aria-labelledby="transformLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Beast Monke Transformation</h5>
+              </div>  
+              <div class="modal-body">
+                <img src="project_img/Beast1.gif">
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

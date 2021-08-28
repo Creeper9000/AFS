@@ -1,0 +1,45 @@
+.jumbotron{
+    border-color: red;
+    text-align: center;
+    border: 3px solid;
+    background-color: white;
+}
+.Boss-title{
+    text-align: center;
+}
+#AFS-title{
+    color: white;
+}
+.jumbotron .row h3{
+    text-align: center;
+}
+@media screen and (min-width: 780px){
+    
+    .jumbotron{
+        background-image: url(../Project_img/BigMightNPC.png);
+        height: 300px;
+    }
+    #Welcome h3{
+        color: white;
+        text-align: center;
+        margin-top: 75px;
+    }
+    #main-picture ,#htp{
+        margin: 100px;
+    }
+    .alert-stuff{
+        margin: 30px;
+    }
+    #kurama, #broly, #beast-king, #AFO, #beast-monke{
+        width: 500px;
+    }
+    #broly,#AFO{
+        margin-right: 35px;
+    }
+    #kurama, #beast-king{
+        margin-left: 65px;
+    }
+    #beast-monke{
+        margin-left: 300px;
+    }
+}
